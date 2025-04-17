@@ -5,7 +5,7 @@
   "version": "0.0.1",
   "publisher": "your-publisher-id",
   "engines": {
-    "vscode": "^1.99.0"
+    "vscode": "^1.97.0"
   },
   "categories": [
     "Other"
@@ -28,7 +28,7 @@
   "dependencies": {},
   "devDependencies": {
     "@types/node": "^22.14.1",
-    "@types/vscode": "^1.99.1",
+    "@types/vscode": "^1.97.1",
     "typescript": "^5.0.0"
   }
 }

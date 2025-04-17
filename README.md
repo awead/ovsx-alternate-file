@@ -4,13 +4,29 @@ A VSX plugin to open alternate files using projections.json.
 
 ## Usage
 
-Install via the VSX Marketplace.
+Install via the [Open VSX Marketplace](https://open-vsx.org/extension/your-publisher-id/ovsx-alternate-file)
+
+**or**
+
+Compile the plugin to a vsix file and install it into VS Code/Windsurf
+
+## Compilation
+
+```bash
+npm install
+npm run build
+vsce package
+```
 
 ## Development
-- Run `npm install` and `npm run build` in this directory.
+
+```bash
+npm install
+npm run build
+```
 
 ## References
 
 Inspired by [Test Double's Alternate File](https://github.com/testdouble/vscode-alternate-alternate-file)
 
-Adheres to [Tim Pope's Projectionist](https://github.com/tpope/vim-projectionist)
+Governed by [Tim Pope's Projectionist](https://github.com/tpope/vim-projectionist)
